@@ -1,0 +1,36 @@
+baseURL = "https://Vex7eX.github.io/archie/"
+languageCode = "en-us"
+title = "Vex7eX"
+theme="archie"
+copyright = "© Vex7eX"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
+
+[params]
+	mode="dark" # color-mode → light,dark,toggle or auto
+	subtitle = "Some idle talk and scribbles."
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/Vex7eX"
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
